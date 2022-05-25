@@ -1,0 +1,11 @@
+version: '3.9'
+
+services:
+  alpine-ansible:
+    build: .
+    command: play.yaml
+    volumes:
+      - .:/ansible
+    environment:
+      ANSIBLE_HOST_KEY_CHECKING: False
+

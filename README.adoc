@@ -1,0 +1,7 @@
+= Ansible runner
+
+This is a simple project for creating a docker image that contains Ansible, it is meant to be use on you ci/cd.
+
+== Usage
+
+The entrypoint starts by installing pip and ansible-galaxy dependencies then it start the ansible command.

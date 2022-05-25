@@ -1,0 +1,6 @@
+- name: Sup boy
+  hosts: localhost
+  tasks:
+  - debug:
+      msg: "This is a test message"
+
